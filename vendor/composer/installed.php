@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '4415941e1e1f048d31f8cc4d2c485da40c1d5d1b',
         'name' => 'admin/02.15',
         'dev' => true,
     ),
     'versions' => array(
         'admin/02.15' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '4415941e1e1f048d31f8cc4d2c485da40c1d5d1b',
             'dev_requirement' => false,
         ),
         'johnpbloch/wordpress' => array(
