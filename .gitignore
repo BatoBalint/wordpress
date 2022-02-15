@@ -1,3 +1,2 @@
-composer.phar
-/vendor/
-/wordpress/
+vendor
+wordpress

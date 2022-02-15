@@ -11,7 +11,29 @@
             "email": "balint.bato@gmail.com"
         }
     ],
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org",
+            "only": [
+                "wpackagist-plugin/*",
+                "wpackagist-theme/*"
+            ]
+        }
+    ],
     "require": {
-        "johnpbloch/wordpress": "^5.9"
+        "johnpbloch/wordpress": "^5.9",
+        "wpackagist-theme/astra": "^3.7",
+        "wpackagist-plugin/wordpress-seo": "^18.1"
+    },
+    "extra": {
+        "installer-paths": {
+            "wp-content/mu-plugins/{$name}/": [
+                "wpackagist-plugin/akismet"
+            ],
+            "wp-content/plugins/{$name}/": [
+                "type:wordpress-plugin"
+            ]
+        }
     }
 }
