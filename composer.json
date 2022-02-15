@@ -1,0 +1,17 @@
+{
+    "name": "admin/02.15",
+    "autoload": {
+        "psr-4": {
+            "Admin\\0215\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "BatoBalint",
+            "email": "balint.bato@gmail.com"
+        }
+    ],
+    "require": {
+        "johnpbloch/wordpress": "^5.9"
+    }
+}
